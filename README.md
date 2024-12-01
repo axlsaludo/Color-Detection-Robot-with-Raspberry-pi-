@@ -1,5 +1,21 @@
+![top](https://github.com/user-attachments/assets/590094fa-ea04-48e8-b4dc-d062c1ab11d0)
+
+<p align="center">
+  <a href="https://www.logiclaboratories.tech">
+    <img src="https://img.shields.io/badge/mywebsite-1B1F24?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/kurtaxlsaludo/">
+    <img src="https://img.shields.io/badge/linked%20in-1B1F24?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:axlsaludo@proton.me">
+     <img src="https://img.shields.io/badge/contact%20me-1B1F24?style=for-the-badge&logo=protonmail&logoColor=white" />
+  </a>
+  <a href="https://www.cloudskillsboost.google/public_profiles/22d7733e-0133-4057-affc-6e6f5ab6f8e9">
+    <img src="https://img.shields.io/badge/gcp%20dev-1B1F24?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  </a>
+</p>
+
 # Color Detection Robot
-### Property of Logic Laboratories
 
 This repository contains the code and setup instructions for a **Color Detection Robot**, designed by Logic Laboratories. The robot detects a specific color (such as a tennis ball) using a camera and HSV color calibration. Once detected, it moves toward the object by controlling motors through an Arduino microcontroller, connected via serial communication.
 
@@ -88,6 +104,3 @@ Adjust `/dev/ttyACM0` to match your Arduino's serial port if needed.
 - **No Camera Detected**: Ensure that your camera is properly connected and that `cv2.VideoCapture(0)` works.
 - **Serial Communication Issues**: Verify that the correct serial port is being used and that the Arduino is properly connected.
 - **Robot Not Moving**: Check the motor wiring and make sure the motor driver is properly connected to the Arduino.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
